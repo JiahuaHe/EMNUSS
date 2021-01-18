@@ -1,6 +1,5 @@
 # EMNUSS: a deep learning framework for secondarystructure annotation in cryo-EM maps
-
-Copyright (C) 2020 Jiahua He, Sheng-You Huang and Huazhong University of Science and Technology
+Copyright (C) 2020 Jiahua He
 
 Software requirements:
 	Python  (https://www.python.org) (ver. 3.7)
