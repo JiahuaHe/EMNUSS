@@ -1,0 +1,20 @@
+{
+    "data_params": {
+        "ignorestart": false,
+        "apix": 1.0,
+        "chunk_size": 60,
+        "box_size": 40,
+        "core_size": 30
+    },
+    "test_params": {
+        "use_gpu": true,
+        "gpu_id": "0",
+        "model_file": "../save/mid.pkl",
+        "batch_size": 10
+    },
+    "net_params": {
+        "in_channels": 1, 
+        "out_channels_first_conv": 32,
+        "n_classes": 3
+    }
+}
