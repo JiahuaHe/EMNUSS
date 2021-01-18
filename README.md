@@ -26,6 +26,8 @@ Required files:
 
 	"emd_*.map": EM density map in MRC2014 format (download from EMDB).
 	"config.json": config file in JSON format. See "./6MRC/config.json".
+	
+The compressed trained models are stored in directory "./save/". Unzip them before use.
 
 High resolution Example: EMD-9195
 
