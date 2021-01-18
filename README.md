@@ -22,6 +22,7 @@ In order to run python scripts properly, users should set the python path using 
                 /path/to/your/python ./emnuss.py ...
 		
 Required files:
+
 	"emd_*.map": EM density map in MRC2014 format (download from EMDB).
 	"config.json": config file in JSON format. See "./6MRC/config.json".
 
