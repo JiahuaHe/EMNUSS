@@ -1,4 +1,5 @@
-# EMNUSS: a deep learning framework for secondary structure annotation in cryo-EM maps
+# EMNUSS
+A deep learning framework for secondary structure annotation in cryo-EM maps
 Copyright (C) 2020 Jiahua He
 
 Software requirements:
