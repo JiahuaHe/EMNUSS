@@ -2,8 +2,11 @@
 Copyright (C) 2020 Jiahua He
 
 Software requirements:
+
 	Python  (https://www.python.org) (ver. 3.7)
+	
 Python package requirements:
+
 	pytorch (https://pytorch.org) (ver. 1.2 or later)
 	mrcfile (https://github.com/ccpem/mrcfile)
 	numpy   (https://www.numpy.org)
