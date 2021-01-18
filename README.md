@@ -13,14 +13,14 @@ Python package requirements:
 	tqdm    (https://github.com/tqdm/tqdm)
 
 In order to run python scripts properly, users should set the python path using one of the following ways.
-
-        1. adding python path to the header of each python script like this:
+1. adding python path to the header of each python script like this:
 
                 "#!/path/to/your/python"
 
-        2. running the scripts with the full python path like this:
+2. running the scripts with the full python path like this:
 
                 /path/to/your/python ./emnuss.py ...
+		
 Required files:
 	"emd_*.map": EM density map in MRC2014 format (download from EMDB).
 	"config.json": config file in JSON format. See "./6MRC/config.json".
