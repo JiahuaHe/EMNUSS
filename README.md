@@ -1,4 +1,4 @@
-# EMNUSS: a deep learning framework for secondarystructure annotation in cryo-EM maps
+# EMNUSS: a deep learning framework for secondary structure annotation in cryo-EM maps
 Copyright (C) 2020 Jiahua He
 
 Software requirements:
@@ -23,12 +23,15 @@ Required files:
 	"config.json": config file in JSON format. See "./6MRC/config.json".
 
 High resolution Example: EMD-9195
+
 	cd 6MRC/
 	../emnuss.py -mi emd_9195.map -mo sspred.mrc -t 0.45 --output
 
 Middle resolution Example: EMD-3329
+
 	cd 5FVM/
 	../emnuss.py -mi emd_3329.map -mo sspred.mrc -t 0.044 --output
+
 Attentions: a threshold value should be provided after flag "-t". 
 For better visualization, please use the author recommended contour level (or half of it).
 
