@@ -4,7 +4,7 @@ Copyright (C) 2020 Jiahua He
 
 Software requirements:
 
-	Python  (https://www.python.org) (ver. 3.7)
+	Python  (https://www.python.org) (ver. 3.7 or later)
 	
 Python package requirements:
 
@@ -14,7 +14,7 @@ Python package requirements:
 	tqdm    (https://github.com/tqdm/tqdm)
 	
 	
-The interpolation program "interp3d.f90" should be built as a python package 'interp3d' through f2py. If the package cannot be imported properly on your system, please build it using f2py (the version of f2py should match the version of Python).
+The interpolation program "interp3d.f90" should be built as a python package 'interp3d' through **f2py**.
 
                 f2py -c interp3d.f90 -m interp3d
 		
