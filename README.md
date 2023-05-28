@@ -14,7 +14,7 @@ Python package requirements:
 	tqdm    (https://github.com/tqdm/tqdm)
 	
 The interpolation program "interp3d.f90" should be built as a python package 'interp3d' through f2py. If the package cannot be imported properly on your system, please build it using f2py (the version of f2py should match the version of Python).
-	f2py -c interp3d.f90 -m interp3d
+                f2py -c interp3d.f90 -m interp3d
 This command will generate an ELF file with name like "interp3d.cpython-*.so". Please keep "interp3d.cpython-*.so" with all python scripts "*.py" in the same directory.
 
 In order to run python scripts properly, users should set the python path using one of the following ways.
